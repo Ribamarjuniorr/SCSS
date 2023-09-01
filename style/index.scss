@@ -1,0 +1,36 @@
+
+@import './header'
+@import './variaveis'
+
+header {
+    display: flex;
+    background: $botão;
+    color: white;
+
+
+    button {
+        background: $botãoplay;
+        &:hover{
+            background: blue;
+        } &::after {
+            content: "Teste...";
+        }
+          
+                
+
+    }
+    p {
+
+    }
+    h2 {
+
+
+    }
+    div button {
+        display: flow-root;
+        background-color: rgb(143, 118, 118);
+        padding-bottom: 2%;
+        border-radius: 10px;
+    }
+}
+

@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  background: rgb(26, 201, 93);
+  color: white;
+}
+header button {
+  background: red;
+}
+header button:hover {
+  background: blue;
+}
+header button::after {
+  content: "Teste...";
+}
+header div button {
+  display: flow-root;
+  background-color: rgb(143, 118, 118);
+  padding-bottom: 2%;
+  border-radius: 10px;
+}/*# sourceMappingURL=index.css.map */
